@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  direction: rtl;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #38013fb2;
+}
+body div {
+  color: transparent;
+  transition: all 0.4s;
+}
+.bbbl {
+  color: #e2e2e2b2;
+}
+.formone {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  background-color: #00000052;
+  padding: 10px;
+  border-radius: 10px;
+}
+.formone input[type="text"],
+.formone input[type="number"] {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #e2e2e2b2;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  color: #e2e2e2b2;
+}
+.formone input[type="text"]::placeholder,
+.formone input[type="number"]::placeholder {
+  color: #e2e2e2b2;
+}
+.formone input[type="number"]::-webkit-inner-spin-button,
+.formone input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+  -webkit-appearance: none;
+}
+.formone input[type="number"] {
+  -moz-appearance: textfield;
+}
+.formone button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: #ac59a7;
+  color: #e6e5e5;
+}
